@@ -19,26 +19,6 @@ const routes: Routes = [{
       component: DashboardComponent,
     },
     {
-      path: 'layout',
-      loadChildren: () => import('./layout/layout.module')
-        .then(m => m.LayoutModule),
-    },
-    {
-      path: 'modal-overlays',
-      loadChildren: () => import('./modal-overlays/modal-overlays.module')
-        .then(m => m.ModalOverlaysModule),
-    },
-    {
-      path: 'maps',
-      loadChildren: () => import('./maps/maps.module')
-        .then(m => m.MapsModule),
-    },
-    {
-      path: 'charts',
-      loadChildren: () => import('./charts/charts.module')
-        .then(m => m.ChartsModule),
-    },
-    {
       path: 'tables',
       loadChildren: () => import('./tables/tables.module')
         .then(m => m.TablesModule),
