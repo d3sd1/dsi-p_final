@@ -7,12 +7,13 @@ import {Router} from '@angular/router';
 @Component({
   selector: 'ngx-login',
   templateUrl: './login.component.html',
+  styleUrls: ['./login.component.scss'],
 })
 export class NgxLoginComponent extends NbLoginComponent {
 
-  async doLoginA() {
+  async login() {
     setTimeout(async () => {
-      await this.router.navigateByUrl('pages/dashboard');
-    }, 3000);
+      await this.router.navigateByUrl('/pages/dashboard');
+    }, 1000);
   }
 }
