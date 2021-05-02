@@ -5,7 +5,7 @@ import { ProfitChart, ProfitChartData } from '../data/profit-chart';
 @Injectable()
 export class ProfitChartService extends ProfitChartData {
 
-  private year = [
+  private año = [
     '2012',
     '2013',
     '2014',
@@ -20,9 +20,9 @@ export class ProfitChartService extends ProfitChartData {
   constructor(private period: PeriodsService) {
     super();
     this.data = {
-      week: this.getDataForWeekPeriod(),
-      month: this.getDataForMonthPeriod(),
-      year: this.getDataForYearPeriod(),
+      semana: this.getDataForWeekPeriod(),
+      mes: this.getDataForMonthPeriod(),
+      año: this.getDataForYearPeriod(),
     };
   }
 
@@ -53,10 +53,10 @@ export class ProfitChartService extends ProfitChartData {
   }
 
   private getDataForYearPeriod(): ProfitChart {
-    const nPoint = this.year.length;
+    const nPoint = this.año.length;
 
     return {
-      chartLabel: this.year,
+      chartLabel: this.año,
       data: [
         this.getRandomData(nPoint),
         this.getRandomData(nPoint),

@@ -21,33 +21,33 @@ export class UserActivityService extends UserActivityData {
   constructor(private periods: PeriodsService) {
     super();
     this.data = {
-      week: this.getDataWeek(),
-      month: this.getDataMonth(),
-      year: this.getDataYear(),
+      semana: this.getDataWeek(),
+      mes: this.getDataMonth(),
+      año: this.getDataYear(),
     };
   }
 
   private getDataWeek(): UserActive[] {
-    return this.periods.getWeeks().map((week) => {
-      return this.generateUserActivityRandomData(week);
+    return this.periods.getWeeks().map((semana) => {
+      return this.generateUserActivityRandomData(semana);
     });
   }
 
   private getDataMonth(): UserActive[] {
     const currentDate = new Date();
     const days = currentDate.getDate();
-    const month = this.periods.getMonths()[currentDate.getMonth()];
+    const mes = this.periods.getMonths()[currentDate.getMonth()];
 
     return Array.from(Array(days)).map((_, index) => {
-      const date = `${index + 1} ${month}`;
+      const date = `${index + 1} ${mes}`;
 
       return this.generateUserActivityRandomData(date);
     });
   }
 
   private getDataYear(): UserActive[] {
-    return this.periods.getYears().map((year) => {
-      return this.generateUserActivityRandomData(year);
+    return this.periods.getYears().map((año) => {
+      return this.generateUserActivityRandomData(año);
     });
   }
 

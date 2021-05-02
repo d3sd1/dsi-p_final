@@ -17,7 +17,7 @@ export class ECommerceChartsPanelComponent implements OnDestroy {
   private alive = true;
 
   chartPanelSummary: OrderProfitChartSummary[];
-  period: string = 'week';
+  period: string = 'semana';
   ordersChartData: OrdersChart;
   profitChartData: ProfitChart;
 

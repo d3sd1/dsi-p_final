@@ -1,7 +1,7 @@
 import { Observable } from 'rxjs';
 
-export interface Month {
-  month: string;
+export interface mes {
+  mes: string;
   delta: string;
   down: boolean;
   kWatts: string;
@@ -11,7 +11,7 @@ export interface Month {
 export interface Electricity {
   title: string;
   active?: boolean;
-  months: Month[];
+  months: mes[];
 }
 
 export interface ElectricityChart {

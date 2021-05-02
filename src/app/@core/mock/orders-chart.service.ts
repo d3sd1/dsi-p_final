@@ -5,7 +5,7 @@ import { OrdersChart, OrdersChartData } from '../data/orders-chart';
 @Injectable()
 export class OrdersChartService extends OrdersChartData {
 
-  private year = [
+  private año = [
     '2012',
     '2013',
     '2014',
@@ -20,9 +20,9 @@ export class OrdersChartService extends OrdersChartData {
   constructor(private period: PeriodsService) {
     super();
     this.data = {
-      week: this.getDataForWeekPeriod(),
-      month: this.getDataForMonthPeriod(),
-      year: this.getDataForYearPeriod(),
+      semana: this.getDataForWeekPeriod(),
+      mes: this.getDataForMonthPeriod(),
+      año: this.getDataForYearPeriod(),
     };
   }
 
@@ -105,7 +105,7 @@ export class OrdersChartService extends OrdersChartData {
 
   private getDataForYearPeriod(): OrdersChart {
     return {
-      chartLabel: this.getDataLabels(42, this.year),
+      chartLabel: this.getDataLabels(42, this.año),
       linesData: [
         [
           190, 269, 327, 366, 389, 398,

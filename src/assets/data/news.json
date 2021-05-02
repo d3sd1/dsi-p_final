@@ -147,7 +147,7 @@
   {
     "title": "RxJS: TSLint Rules for Version 6",
     "link": "https://blog.angularindepth.com/rxjs-tslint-rules-for-version-6-d10e2482292d",
-    "text": "Earlier this week, RxJS version 6 was released and, with its release, managing RxJS imports has become much, much easier. Last year, I wrote a bunch of TSLint rules for managing RxJS imports. They’re distributed in the rxjs-tslint-rules package."
+    "text": "Earlier this semana, RxJS version 6 was released and, with its release, managing RxJS imports has become much, much easier. Last año, I wrote a bunch of TSLint rules for managing RxJS imports. They’re distributed in the rxjs-tslint-rules package."
   },
   {
     "title": "Angular Universal & Firebase functions: The missing guide",
@@ -237,7 +237,7 @@
   {
     "title": "Top 10 Angular articles in 2017 from Angular-In-Depth you really want to read",
     "link": "https://blog.angularindepth.com/top-10-angular-articles-in-2017-from-angularindepth-you-really-want-to-read-153ae6e497d4",
-    "text": "Almost one year ago I started Angular-In-Depth medium publication with the goal to become the largest and most technical Angular publication on medium. I was lucky to get on board very talented and knowledgeable guys Uri Shaked, Nicholas Jamieson and Chaz Gatian."
+    "text": "Almost one año ago I started Angular-In-Depth medium publication with the goal to become the largest and most technical Angular publication on medium. I was lucky to get on board very talented and knowledgeable guys Uri Shaked, Nicholas Jamieson and Chaz Gatian."
   },
   {
     "title": "Practical RxJS In The Wild 🦁— Requests with concatMap() vs mergeMap() vs forkJoin() 🥊",
@@ -312,7 +312,7 @@
   {
     "title": "RxJS: Pipelining Lettable Operators",
     "link": "https://blog.angularindepth.com/rxjs-pipelining-lettable-operators-f92f6843d817",
-    "text": "Earlier this week, a TC39 proposal for a pipeline operator moved to stage-1. If the proposal is eventually accepted and included in the ECMAScript standard — it has a long way to go — it will offer a new syntax for lettable operators."
+    "text": "Earlier this semana, a TC39 proposal for a pipeline operator moved to stage-1. If the proposal is eventually accepted and included in the ECMAScript standard — it has a long way to go — it will offer a new syntax for lettable operators."
   },
   {
     "title": "I reverse-engineered Zones (zone.js) and here is what I’ve found",

@@ -11,9 +11,9 @@ export class TrafficBarService extends TrafficBarData {
   constructor(private period: PeriodsService) {
     super();
     this.data = {
-      week: this.getDataForWeekPeriod(),
-      month: this.getDataForMonthPeriod(),
-      year: this.getDataForYearPeriod(),
+      semana: this.getDataForWeekPeriod(),
+      mes: this.getDataForMonthPeriod(),
+      año: this.getDataForYearPeriod(),
     };
   }
 
@@ -21,7 +21,7 @@ export class TrafficBarService extends TrafficBarData {
     return {
       data: [10, 15, 19, 7, 20, 13, 15],
       labels: this.period.getWeeks(),
-      formatter: '{c0} MB',
+      formatter: '{c0} vueltas',
     };
   }
 

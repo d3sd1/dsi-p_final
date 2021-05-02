@@ -12,9 +12,9 @@ export class TrafficListService extends TrafficListData {
   constructor(private period: PeriodsService) {
     super();
     this.data = {
-      week: this.getDataWeek(),
-      month: this.getDataMonth(),
-      year: this.getDataYear(),
+      semana: this.getDataWeek(),
+      mes: this.getDataMonth(),
+      año: this.getDataYear(),
     };
   }
 
