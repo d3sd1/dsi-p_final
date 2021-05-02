@@ -14,7 +14,7 @@ export class EarningCardBackComponent implements OnDestroy {
   name: string;
   color: string;
   value: number;
-  defaultSelectedCurrency: string = 'Bitcoin';
+  defaultSelectedCurrency: string = 'Marco Limoncello';
 
   constructor(private earningService: EarningData ) {
     this.earningService.getEarningPieChartData()
