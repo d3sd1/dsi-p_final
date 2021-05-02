@@ -15,7 +15,7 @@ export class TrafficCardsHeaderComponent implements OnDestroy {
 
   @Input() type: string = 'Circuito de Cataluña';
 
-  types: string[] = ['Circuito de Cataluña', 'Circuito de Aragón', 'Circuito de Jerez'];
+  types: string[] = ['Cataluña', 'Circuito de Aragón', 'Circuito de Jerez'];
   currentTheme: string;
 
   constructor(private themeService: NbThemeService) {

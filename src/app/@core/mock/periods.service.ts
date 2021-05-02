@@ -21,13 +21,13 @@ export class PeriodsService {
 
   getWeeks() {
     return [
-      'Marco Limoncello',
-      'Alex Pins',
-      'Marc Sánchez',
-      'Jimena Pared',
-      'Pepe Rivera',
-      'Paco Alonso',
-      'Pepito de los palotes',
+      'Lunes',
+      'Martes',
+      'Miércoles',
+      'Jueves',
+      'Viernes',
+      'Sábado',
+      'Domingo',
     ];
   }
 }
